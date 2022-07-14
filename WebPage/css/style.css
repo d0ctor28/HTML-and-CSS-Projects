@@ -1,0 +1,88 @@
+body{
+    background-color:#f4f4f4;
+    color:#555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+/*body { font-family: "Playfair Display"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Playfair Display"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Playfair Display"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Playfair Display"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Playfair Display"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+#main-header{
+    background-color: #ec5443;
+    color:#fff;
+}
+#navbar{
+    background-color: #333;
+    color:#fff;
+}
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+#navbar li{
+    display:inline;
+    padding-right: 100px;
+    text-decoration:none;
+}
+#navbar a:hover{
+    color: red;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+    padding-right:15px;
+    
+}
+#navbar li:not(:last-child){ 
+    margin-bottom: 1000000px;  
+ }
+#showcase{
+    background-image: url('../images/showcase.jpg');
+    background-position: center right;
+    min-height:300px;
+    margin-bottom:30px;
+    text-align:center;
+}
+#showcase h1{
+    color:black;
+    font-size:50px;
+    line-height:1.6em;
+    padding-top: 60px;
+}
+#main{
+    float:left;
+    width:70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float:right;
+    width: 30%;
+    background: #333;
+    color:#fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-footer{
+    background: #333;
+    color:#fff;
+    text-align: center;
+    padding:40px;
+    margin-top: 500px;
+    
+    /*position: absolute;
+    bottom: 0;*/
+}
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+}
